@@ -2,6 +2,7 @@ Hello
 <h1> VIZA </h1>
 
 <div id="text"></div>
+<div id="text2"></div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/json.js"></script>
@@ -16,7 +17,7 @@ Hello
 $().ready(function(){
     $.getJSON( "/723w9/data.json", function( data ) {
     console.log(data);
-    $("#text").html(data["text"]);
+    $("#text2").html(data["text"]);
   });
 });   
    
